@@ -45,7 +45,17 @@ def list():
 # Call the function with each new score and display the updated top 5 scores
 
 
+#UCP of letter A
+score1 = ord('A')
+#UCP of letter B
+score2 = ord('B')
+#UCP of letter C
+score3 = ord('C')
 
+#Print values
+print(score1)
+print(score2)
+print(score3)
 
 # TASK: Create an interactive grocery list manager.
 
