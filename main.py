@@ -1,4 +1,26 @@
+
+def get_valid_integer(prompt):
+    while True:
+        try:
+            return int(input(prompt))
+        except ValueError:
+            print("Please eneter a valid integer.")
+
+
+def list():
+    # Define a function that takes a list of scores and a new score
+    score1 = get_valid_integer("Please type the first letter. ")
+
+    score2 = get_valid_integer("Please type the second letter. ")
+
+    score3 = get_valid_integer("Please type the third letter. ")
+
+    score4 = get_valid_integer("Please type the fourth letter. ")
+
+    score5 = get_valid_integer("Please type the fifth letter. "
+
 # TASK: Write a function that shifts each letter in a string by a given number.
+
 
 # Define a function that takes a string and an integer shift value as parameters  
 # Create an empty list to store the shifted characters  
@@ -13,29 +35,11 @@
 # Get user input for the message and shift value  
 # Call the function with the inputs and display the result
 
-def get_valid_integer(prompt):
-    while True:
-        try:
-            return int(input(prompt))
-        except ValueError:
-            print("Please eneter a valid integer.")
 
 
 # TASK: Create a high score tracker that keeps the top 5 scores.
 
-def list():
-    # Define a function that takes a list of scores and a new score
-    score1 = get_valid_integer("Please type the first letter. ")
-
-    score2 = get_valid_integer("Please type the second letter. ")
-
-    score3 = get_valid_integer("Please type the third letter. ")
-
-    score4 = get_valid_integer("Please type the fourth letter. ")
-
-    score5 = get_valid_integer("Please type the fifth letter. ")
-
-
+# Define a function that takes a list of scores and a new score
 # Append the new score to the list
 # Sort the list in descending order
 # Keep only the top 5 scores
@@ -45,17 +49,6 @@ def list():
 # Call the function with each new score and display the updated top 5 scores
 
 
-#UCP of letter A
-score1 = ord('A')
-#UCP of letter B
-score2 = ord('B')
-#UCP of letter C
-score3 = ord('C')
-
-#Print values
-print(score1)
-print(score2)
-print(score3)
 
 # TASK: Create an interactive grocery list manager.
 
