@@ -17,7 +17,7 @@ def list():
 
     score4 = get_valid_integer("Please type the fourth letter. ")
 
-    score5 = get_valid_integer("Please type the fifth letter. "
+    score5 = get_valid_integer("Please type the fifth letter. ")
 
 # TASK: Write a function that shifts each letter in a string by a given number.
 
